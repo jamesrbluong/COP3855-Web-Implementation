@@ -9,81 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SportsStore
 build_property.RootNamespace = SportsStore
-build_property.ProjectDir = /Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/
+build_property.ProjectDir = C:\Users\ronal_cphlvm8\Documents\GitHub\COP3855-Web-Implementation\SportsStore\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore
+build_property.MSBuildProjectDirectory = C:\Users\ronal_cphlvm8\Documents\GitHub\COP3855-Web-Implementation\SportsStore
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Account/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9DcmVhdGUuY3NodG1s
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Account/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9JbmRleC5jc2h0bWw=
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Admin/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRWRpdC5jc2h0bWw=
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Admin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Cart/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/FAQ.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRkFRLmNzaHRtbA==
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/FAQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRkFRLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Order/Checkout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvQ2hlY2tvdXQuY3NodG1s
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Order/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Order/Completed.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvQ29tcGxldGVkLmNzaHRtbA==
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Order/Completed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ29tcGxldGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Order/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvTGlzdC5jc2h0bWw=
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Order/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Product/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9MaXN0LmNzaHRtbA==
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Product/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Shared/Components/CartSummary/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ2FydFN1bW1hcnkvRGVmYXVsdC5jc2h0bWw=
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Shared/Components/CartSummary/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FydFN1bW1hcnlcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Shared/Components/NavigationMenu/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTmF2aWdhdGlvbk1lbnUvRGVmYXVsdC5jc2h0bWw=
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Shared/Components/NavigationMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2aWdhdGlvbk1lbnVcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Shared/ProductSummary.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Byb2R1Y3RTdW1tYXJ5LmNzaHRtbA==
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Shared/ProductSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFByb2R1Y3RTdW1tYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Shared/_AdminLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BZG1pbkxheW91dC5jc2h0bWw=
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ronaldowalker/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/ronal_cphlvm8/Documents/GitHub/COP3855-Web-Implementation/SportsStore/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
