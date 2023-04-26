@@ -36,5 +36,31 @@ repository.Products.Where(e =>
             },
             CurrentCategory = category
         });
+
+        public IActionResult Search(string searchTerm)
+        {
+            if (string.IsNullOrWhiteSpace(searchTerm))
+            {
+                return RedirectToAction("List");
+            }
+
+            var searchResults = repository.Products
+                .Where(p => p.Name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                            p.Description.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+                .OrderBy(p => p.ProductID)
+                .ToList();
+
+            return View("List", new ProductsListViewModel
+            {
+                Products = searchResults,
+                PagingInfo = new PagingInfo
+                {
+                    CurrentPage = 1,
+                    ItemsPerPage = searchResults.Count,
+                    TotalItems = searchResults.Count
+                },
+                CurrentCategory = null
+            });
+        }
     }
 }

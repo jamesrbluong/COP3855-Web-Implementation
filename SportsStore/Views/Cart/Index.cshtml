@@ -14,7 +14,10 @@
             @foreach (var line in Model.Cart.Lines)
             {
                 <tr>
-                    <td class="text-center">@line.Quantity</td>
+                    <td class="text-center">
+                        <input type="number" name="quantity" value="@line.Quantity" min="1" class="form-control update-quantity" style="width: 60px; display: inline;" data-product-id="@line.Product.ProductID" />
+                        <button type="button" class="btn btn-sm btn-info update-cart-btn" data-product-id="@line.Product.ProductID">Update</button>
+                    </td>
                     <td class="text-left">@line.Product.Name</td>
                     <td class="text-right">@line.Product.Price.ToString("c")</td>
                     <td class="text-right">
@@ -43,6 +46,11 @@
             </tr>
         </tfoot>
     </table>
+    <form id="updateCartForm" asp-action="UpdateCart" method="post" style="display: none;">
+        <input type="hidden" name="productId" />
+        <input type="hidden" name="returnUrl" value="@Model.ReturnUrl" />
+        <input type="hidden" name="quantity" />
+    </form>
 </div>
 <div class="text-center">
     <a class="btn btn-primary" href="@Model.ReturnUrl">Continue shopping</a>
@@ -50,3 +58,20 @@
         Checkout
     </a>
 </div>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.update-cart-btn').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                var productId = this.getAttribute('data-product-id');
+                var quantityInput = document.querySelector('.update-quantity[data-product-id="' + productId + '"]');
+                var updateCartForm = document.getElementById('updateCartForm');
+
+                updateCartForm.querySelector('input[name="productId"]').value = productId;
+                updateCartForm.querySelector('input[name="quantity"]').value = quantityInput.value;
+
+                updateCartForm.submit();
+            });
+        });
+    </script>
+}

@@ -1,19 +1,48 @@
-﻿</html>
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" asp-href-include="lib/bootstrap/dist/css/*.min.css" />
     <link rel="stylesheet" asp-href-include="lib/font-awesome/css/*.css" />
-    <title>SportsStore</title>
+    <title>MRJ Commerce</title>
+    <style>
+        .footer {
+            background-color: #343a40;
+            padding: 20px 0;
+        }
+
+            .footer a {
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+                .footer a:hover {
+                    color: #cccccc;
+                }
+
+        .auth-buttons {
+            text-align: right;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-inverse bg-info justify-content-between">
-        <a class="navbar-brand text-white" href="#">SPORTS STORE</a>
+        <a class="navbar-brand text-white" href="#">MRJ Commerce</a>
+        <form class="form-inline my-2 my-lg-0" asp-controller="Product" asp-action="Search" method="get">
+            <input class="form-control mr-sm-2" type="search" name="searchTerm" placeholder="Search MRJ Commerce" aria-label="Search" style="width: 300px;">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit" style="padding: 0;">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
         <div class="float-right">
             @await Component.InvokeAsync("CartSummary")
         </div>
     </nav>
+    <div class="auth-buttons">
+        <a class="btn btn-primary mr-2" asp-controller="Account" asp-action="Create" role="button">Register</a>
+        <a class="btn btn-secondary" asp-controller="Account" asp-action="Login" role="button">Login</a>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col col-md-3">
@@ -24,5 +53,13 @@
             </div>
         </div>
     </div>
+    <div class="footer">
+        <div class="container">
+            <div class="text-center">
+                <a href="@Url.Action("Index", "FAQ")">FAQ</a>
+            </div>
+        </div>
+    </div>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

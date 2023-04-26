@@ -16,11 +16,23 @@
                     Quantity = quantity
                 });
             }
- else
+            else
             {
                 line.Quantity += quantity;
             }
         }
+        public virtual void UpdateItem(Product product, int quantity)
+        {
+            CartLine line = lineCollection
+                .Where(p => p.Product.ProductID == product.ProductID)
+                .FirstOrDefault();
+
+            if (line != null)
+            {
+                line.Quantity = quantity;
+            }
+        }
+
         public virtual void RemoveLine(Product product) =>
         lineCollection.RemoveAll(l => l.Product.ProductID == product.ProductID);
         public virtual decimal ComputeTotalValue() =>
