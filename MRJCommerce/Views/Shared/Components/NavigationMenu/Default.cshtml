@@ -1,0 +1,21 @@
+﻿@model IEnumerable<string>
+<div class="row">
+    <a class="btn btn-outline-secondary btn-block m-2"
+       asp-action="List"
+       asp-controller="Product"
+       asp-route-category="">
+        Home
+    </a>
+</div>
+@foreach (string category in Model)
+{
+    <div class="row">
+        <a class="btn btn-outline-secondary btn-block m-2"
+       asp-action="List"
+       asp-controller="Product"
+       asp-route-category="@category"
+       asp-route-page="1">
+            @category
+        </a>
+    </div>
+}
