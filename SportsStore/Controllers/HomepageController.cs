@@ -2,11 +2,11 @@
 
 namespace SportsStore.Controllers
 {
-    public class FAQController : Controller
+    public class HomepageController : Controller
     {
         public IActionResult Index()
         {
-            return View("~/Views/Static/FAQ.cshtml");
+            return View("~/Views/Static/Homepage.cshtml");
         }
     }
 }

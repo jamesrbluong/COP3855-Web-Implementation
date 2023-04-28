@@ -6,7 +6,8 @@ namespace SportsStore.Controllers
     {
         public IActionResult Index()
         {
-            return View("Background");
+            return View("~/Views/Static/Background.cshtml");
+
         }
     }
 }
