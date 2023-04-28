@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uSZlMeUcx4MbRRx0w2swcAO5e7x/8LjmhRFlyOU3uzU=",
+  "Hash": "KWYgQne0J2y723Jliv+I9UpmTXAjLyjJVUDBqq/al8Y=",
   "Source": "SportsStore",
   "BasePath": "_content/SportsStore",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\ronal_cphlvm8\\Documents\\GitHub\\COP3855-Web-Implementation\\SportsStore\\wwwroot\\images\\MRJ Commerce.png",
+      "SourceId": "SportsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ronal_cphlvm8\\Documents\\GitHub\\COP3855-Web-Implementation\\SportsStore\\wwwroot\\",
+      "BasePath": "_content/SportsStore",
+      "RelativePath": "images/MRJ Commerce.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MRJ Commerce.png"
+    },
     {
       "Identity": "C:\\Users\\ronal_cphlvm8\\Documents\\GitHub\\COP3855-Web-Implementation\\SportsStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "SportsStore",

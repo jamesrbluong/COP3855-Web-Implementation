@@ -1,22 +1,23 @@
 ﻿@model IEnumerable<string>
-<div class="row">
-    <a class="btn btn-outline-dark btn-block m-2"
-       asp-action="List"
-       asp-controller="Product"
-       asp-route-category="">
-        Home
-    </a>
-</div>
-@foreach (string category in Model)
-{
-    <div class="row">
-        <a class="btn btn-block m-2
-        @(category == ViewBag.SelectedCategory ? "btn-primary": "btn-outline-dark")"
-       asp-action="List"
-       asp-controller="Product"
-       asp-route-category="@category"
-       asp-route-page="1">
-            @category
-        </a>
+
+<h2>Filter</h2>
+
+<form asp-action="Filter" asp-controller="Product" method="post">
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+            All
+        </label>
     </div>
-}
+    @foreach (string category in Model)
+    {
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="categories" value="@category" id="@category">
+            <label class="form-check-label" for="@category">
+                @category
+            </label>
+        </div>
+    }
+    <button type="submit" class="btn btn-primary mt-2">Filter</button>
+</form>
+

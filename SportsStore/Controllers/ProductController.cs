@@ -62,5 +62,42 @@ repository.Products.Where(e =>
                 CurrentCategory = null
             });
         }
+
+        [HttpPost]
+        public IActionResult Filter(string[] categories)
+        {
+            IQueryable<Product> products;
+
+            // If there are no categories selected when "All" is selected when filtering, return a page with products
+            if (categories == null || !categories.Any() || categories.Contains(""))
+            {
+                products = repository.Products.AsQueryable();
+            }
+            else
+            {
+                products = repository.Products
+                    .AsQueryable() 
+                    .Where(p => categories.Contains(p.Category));
+            }
+
+            var orderedProducts = products
+                .OrderBy(p => p.ProductID)
+                .ToList();
+
+            return View("List", new ProductsListViewModel
+            {
+                Products = orderedProducts,
+                PagingInfo = new PagingInfo
+                {
+                    CurrentPage = 1,
+                    ItemsPerPage = orderedProducts.Count,
+                    TotalItems = orderedProducts.Count
+                },
+                CurrentCategory = null
+            });
+        }
+
+
+
     }
 }

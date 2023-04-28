@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\ronal_cphlvm8\\Documents\\GitHub\\COP3855-Web-Implementation\\SportsStore\\wwwroot\\images\\MRJ Commerce.png",
+      "PackagePath": "staticwebassets\\images\\MRJ Commerce.png"
+    },
+    {
       "Id": "C:\\Users\\ronal_cphlvm8\\Documents\\GitHub\\COP3855-Web-Implementation\\SportsStore\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
