@@ -66,7 +66,7 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
  name: "default",
- pattern: "{controller=Homepage}/{action=Homepage}/{id?}");
+ pattern: "{controller=Product}/{action=List}/{id?}");
 
 app.UseSession();
 app.MapDefaultControllerRoute();

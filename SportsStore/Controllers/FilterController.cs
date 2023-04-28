@@ -2,11 +2,11 @@
 
 namespace SportsStore.Controllers
 {
-    public class FilterController : Controller
+    public class PolicyController : Controller
     {
         public IActionResult Index()
         {
-            return View("~/Views/Static/Filter.cshtml");
+            return View("~/Views/Static/Policy.cshtml");
 
         }
     }
