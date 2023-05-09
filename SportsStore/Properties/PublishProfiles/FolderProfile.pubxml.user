@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\CISVM-IIS.unfcsd.unf.edu\MRJWeb</_PublishTargetUrl>
+    <History>True|2023-05-01T22:45:07.5956601Z;False|2023-05-01T18:44:49.3077312-04:00;True|2023-04-28T07:06:50.4465226-04:00;True|2023-04-28T00:29:10.8919359-04:00;False|2023-04-28T00:28:51.5803349-04:00;True|2023-04-28T00:27:18.3487765-04:00;False|2023-04-28T00:26:31.0695862-04:00;False|2023-04-28T00:22:48.8352552-04:00;False|2023-04-28T00:18:57.7578898-04:00;False|2023-04-27T23:59:21.4311530-04:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=CISVM-MSQL\SPRING%3bInitial Catalog=MRJWeb%3bIntegrated Security=True%3bConnect Timeout=30%3bEncrypt=False%3bTrustServerCertificate=False%3bApplicationIntent=ReadWrite%3bMultiSubnetFailover=False</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
